@@ -1,0 +1,16 @@
+﻿Kompilacja rozpoczęła się 13.06.2017 01:54:28.
+     1>Projekt „C:\Users\Michał\Documents\Visual Studio 2012\Projects\Projekt_sfml\Projekt_sfml\Projekt_sfml.vcxproj” w węźle 2 (elementy docelowe: Build).
+     1>ClCompile:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt gra.cpp
+         gra.cpp
+     1>c:\users\michał\documents\visual studio 2012\projects\projekt_sfml\projekt_sfml\gra.cpp(91): warning C4244: "=" : konwersja z "sf::Int32" do "float", możliwa utrata danych
+     1>c:\users\michał\documents\visual studio 2012\projects\projekt_sfml\projekt_sfml\gra.cpp(166): warning C4244: "argument" : konwersja z "int" do "float", możliwa utrata danych
+     1>c:\users\michał\documents\visual studio 2012\projects\projekt_sfml\projekt_sfml\gra.cpp(268): warning C4244: "argument" : konwersja z "time_t" do "unsigned int", możliwa utrata danych
+       Link:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michał\Documents\Visual Studio 2012\Projects\Projekt_sfml\Debug\Projekt_sfml.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michał\Documents\Visual Studio 2012\Projects\Projekt_sfml\Debug\Projekt_sfml.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michał\Documents\Visual Studio 2012\Projects\Projekt_sfml\Debug\Projekt_sfml.lib" /MACHINE:X86 Debug\gra.obj
+         Projekt_sfml.vcxproj -> C:\Users\Michał\Documents\Visual Studio 2012\Projects\Projekt_sfml\Debug\Projekt_sfml.exe
+     1>Kompilowanie projektu „C:\Users\Michał\Documents\Visual Studio 2012\Projects\Projekt_sfml\Projekt_sfml\Projekt_sfml.vcxproj” wykonane (elementy docelowe: Build).
+
+Kompilacja powiodła się.
+
+Czas, który upłynął: 00:00:01.28
